@@ -80,11 +80,7 @@ function heroicon_is_installed(): bool
     // has cache
     $plugins = $cache->read(TEDEM_HEROICON_AUTHOR);
 
-    if (isset($plugins[TEDEM_HEROICON_ID])) {
-        return true;
-    }
-
-    return false;
+    return isset($plugins[TEDEM_HEROICON_ID]);
 }
 
 function heroicon_uninstall(): void
