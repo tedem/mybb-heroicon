@@ -1,0 +1,9 @@
+# System files
+.DS_Store
+
+# Editor directories
+/.vscode
+
+# Dependency directories and files
+/vendor
+composer.lock
